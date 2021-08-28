@@ -1,11 +1,10 @@
 // eslint-disable-next-line no-use-before-define
 import React from 'react'
-import { Routes } from './routes'
 
-function App () {
+const IndexPage: React.FunctionComponent = () => {
   return (
-    <Routes />
+    <div>Oi</div>
   )
 }
 
-export default App
+export default IndexPage
